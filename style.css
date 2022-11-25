@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+.main {background-image: url("Imagini/design-interior.jpg");color: white; height:710px; display: flex; justify-content: center ;position: relative; align-items: center; background-position: center; background-repeat: no-repeat; background-size: cover;}
+.color-overlay{ position: absolute; width: 100%; height: 100% ;background-color: rgba(0, 0, 0, 0.77);z-index: 1;}
+
+.container {  z-index: 2 ;text-align: center;}
+.btn {color:white; background-color: #1b3863;
+}
+/*Zona Relax*/
+.details { position : relative; padding-left: 100px; padding-top: 100px;}
+.details > h1 {color: #1b3863; padding-bottom: 1px;}
+.details > h6 { padding-bottom: 10px;}
+.relax-area {object-fit:cover; height: 700px; width: 100%; padding:6rem; border-radius:10rem;}
+/*Zona Relax*/
+
+/*Services*/
+.container-fluid {text-align: center;}
+.container-fluid h1 {color: #1b3863; margin-top: 50px;}
+h3 {color: #1b3863; margin-top: 50px; margin-bottom: 20px; }
+p { line-height: 30px; padding-top: 10px;}
+/*Services*/
+
+/*About us*/
+.about-us { background-image: url("Imagini/fundalabout.jpg");height : 350px;display: flex; justify-content: center;align-items: center; position: relative; background-position: center ;  background-repeat: no-repeat; background-size: cover;}
+.about-us h1 {color: white;}
+.container-about{z-index: 2; text-align: center;}
+
+/*About us*/
+
+
+
